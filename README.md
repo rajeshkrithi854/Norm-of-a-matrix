@@ -14,32 +14,32 @@ Python
 # Register No: 25007890 
 # Developed By: RAJESH S
 # 1-Norm of a Matrix
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 import numpy as np
 A = np.array(eval(input()))
 norm = np.linalg.norm(A, 1)
 print("%.2f" % norm)
-
+```
 # 2-Norm of a Matrix
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 import numpy as np
 A = np.array(eval(input()))
 norm = np.linalg.norm(A, 2)
 print("%.2f" % norm)
-
+```
 # Infinity Norm of a Matrix
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 import numpy as np
 A = np.array(eval(input()))
 norm = np.linalg.norm(A, np.inf)
 print("%.2f" % norm)
-
+```
 ```
 ## Output:
 ### 1-Norm of a Matrix
